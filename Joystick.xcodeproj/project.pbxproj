@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		D82ECB8E1D3FF4B300EE70BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82ECB8D1D3FF4B300EE70BF /* AppDelegate.swift */; };
-		D82ECB901D3FF4B300EE70BF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D82ECB8F1D3FF4B300EE70BF /* GameScene.sks */; };
 		D82ECB921D3FF4B300EE70BF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82ECB911D3FF4B300EE70BF /* GameScene.swift */; };
 		D82ECB941D3FF4B300EE70BF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82ECB931D3FF4B300EE70BF /* GameViewController.swift */; };
 		D82ECB971D3FF4B300EE70BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82ECB951D3FF4B300EE70BF /* Main.storyboard */; };
 		D82ECB991D3FF4B300EE70BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82ECB981D3FF4B300EE70BF /* Assets.xcassets */; };
 		D82ECB9C1D3FF4B300EE70BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82ECB9A1D3FF4B300EE70BF /* LaunchScreen.storyboard */; };
+		D82ECBA41D3FF4E100EE70BF /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82ECBA31D3FF4E100EE70BF /* Joystick.swift */; };
+		D82ECBA71D402E6E00EE70BF /* Flame.sks in Resources */ = {isa = PBXBuildFile; fileRef = D82ECBA51D402E6E00EE70BF /* Flame.sks */; };
+		D82ECBA81D402E6E00EE70BF /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = D82ECBA61D402E6E00EE70BF /* spark.png */; };
+		D82ECBAA1D402EBB00EE70BF /* rocks-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D82ECBA91D402EBB00EE70BF /* rocks-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D82ECB8A1D3FF4B300EE70BF /* Joystick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joystick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82ECB8D1D3FF4B300EE70BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D82ECB8F1D3FF4B300EE70BF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D82ECB911D3FF4B300EE70BF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D82ECB931D3FF4B300EE70BF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D82ECB961D3FF4B300EE70BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D82ECB981D3FF4B300EE70BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D82ECB9B1D3FF4B300EE70BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D82ECB9D1D3FF4B300EE70BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82ECBA31D3FF4E100EE70BF /* Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		D82ECBA51D402E6E00EE70BF /* Flame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flame.sks; sourceTree = "<group>"; };
+		D82ECBA61D402E6E00EE70BF /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		D82ECBA91D402EBB00EE70BF /* rocks-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocks-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			children = (
 				D82ECB8C1D3FF4B300EE70BF /* Joystick */,
 				D82ECB8B1D3FF4B300EE70BF /* Products */,
+				D82ECBA91D402EBB00EE70BF /* rocks-1.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,8 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				D82ECB8D1D3FF4B300EE70BF /* AppDelegate.swift */,
-				D82ECB8F1D3FF4B300EE70BF /* GameScene.sks */,
 				D82ECB911D3FF4B300EE70BF /* GameScene.swift */,
+				D82ECBA31D3FF4E100EE70BF /* Joystick.swift */,
+				D82ECBA51D402E6E00EE70BF /* Flame.sks */,
+				D82ECBA61D402E6E00EE70BF /* spark.png */,
 				D82ECB931D3FF4B300EE70BF /* GameViewController.swift */,
 				D82ECB951D3FF4B300EE70BF /* Main.storyboard */,
 				D82ECB981D3FF4B300EE70BF /* Assets.xcassets */,
@@ -128,10 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82ECB901D3FF4B300EE70BF /* GameScene.sks in Resources */,
+				D82ECBA81D402E6E00EE70BF /* spark.png in Resources */,
 				D82ECB9C1D3FF4B300EE70BF /* LaunchScreen.storyboard in Resources */,
+				D82ECBAA1D402EBB00EE70BF /* rocks-1.png in Resources */,
 				D82ECB991D3FF4B300EE70BF /* Assets.xcassets in Resources */,
 				D82ECB971D3FF4B300EE70BF /* Main.storyboard in Resources */,
+				D82ECBA71D402E6E00EE70BF /* Flame.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D82ECB921D3FF4B300EE70BF /* GameScene.swift in Sources */,
+				D82ECBA41D3FF4E100EE70BF /* Joystick.swift in Sources */,
 				D82ECB941D3FF4B300EE70BF /* GameViewController.swift in Sources */,
 				D82ECB8E1D3FF4B300EE70BF /* AppDelegate.swift in Sources */,
 			);
@@ -294,6 +306,7 @@
 				D82ECBA21D3FF4B300EE70BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
