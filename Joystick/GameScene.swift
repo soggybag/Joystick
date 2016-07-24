@@ -63,6 +63,7 @@ class GameScene: SKScene {
         /* Called when a touch begins */
         
         // Show the joystick at the position of the touch.
+        // check touch location before showing...
         joystick.show(touches.first!)
     }
     
