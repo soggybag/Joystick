@@ -6,4 +6,4 @@ In the example the Joystick, larger lighter circle, appears when you touch the s
 
 The Joystick instance has two properties xValue, and yValue that have a value in the range of -1 to +1. You can use these values to control objects on the screen. In the example the values are used to apply force to a physics objects to move it around the screen. 
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.gif)
